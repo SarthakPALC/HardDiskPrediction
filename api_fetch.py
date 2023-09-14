@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException, Request
 from pydantic import BaseModel
+from prediction import predict_failure
 import json
 app = FastAPI(title="SMART Data API")
 
@@ -25,7 +26,11 @@ async def getInformation(info: Request):
                 "smart_198_normalized" :  smart_198_norm,
                 "smart_198_raw" :  smart_198_raw
             }
-        print(data)
+        #print(data)
+        result_df = predict_failure(data)
+
+        # You can return the result or do further processing here
+        print(result_df)
 
 if __name__ == "__main__":
     import uvicorn
