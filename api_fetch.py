@@ -17,7 +17,7 @@ feature_order = [
 ]
 
 # Load the one-class SVM model
-one_class_svm_model = joblib.load('trained model/one_class_svm_model.pkl')
+one_class_svm_model = joblib.load('trained_model/one_class_svm_model.pkl')
 
 # MongoDB configuration
 mongo_username = "mongoadmin"
@@ -129,5 +129,5 @@ async def get_information(info: Request):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("api_fetch1:app", host="127.0.0.1", port=8000, reload=True)
+    uvicorn.run("api_fetch:app", host="127.0.0.1", port=8000, reload=True)
 
