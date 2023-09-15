@@ -5,21 +5,37 @@ Loads the ML Model and gives the prediction on the basis of API request.
 
 ## Requirement
 
-tqdm                                                  NumPy
+tqdm                                                  
 
-TensorFlow                                        Keras
+NumPy
 
-spektral                                              scikit-learn
+TensorFlow                                        
 
-seaborn                                              pymongo
+Keras
 
-fastapi                                                 pydantic                                        
+spektral                                              
 
-joblib                                                   json
+scikit-learn
 
-bson                                                    bash
+seaborn                                              
 
-Docker                                                Docker-compose
+pymongo
+
+fastapi                                                 
+
+pydantic                                        
+
+joblib                                                   
+
+json
+
+bson                                                    
+
+bash
+
+Docker                                                
+
+Docker-compose
 
 ## Dataset
 
