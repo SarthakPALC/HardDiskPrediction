@@ -11,7 +11,11 @@ RUN pip3 install \
     scikit-learn \
     seaborn \
     matplotlib \
-    pymongo
+    pymongo \
+    fastapi \
+    pydantic \
+    pandas \
+    joblib
 
 WORKDIR /HardDiskPrediction
 COPY . /HardDiskPrediction
