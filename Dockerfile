@@ -15,7 +15,8 @@ RUN pip3 install \
     fastapi \
     pydantic \
     pandas \
-    joblib
+    joblib \
+    uvicorn
 
 WORKDIR /HardDiskPrediction
 COPY . /HardDiskPrediction
