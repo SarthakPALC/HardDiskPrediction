@@ -16,4 +16,4 @@ RUN pip3 install \
 WORKDIR /HardDiskPrediction
 COPY . /HardDiskPrediction
 EXPOSE 8000
-CMD ["python3", "api-fetch.py"]
+CMD ["python3", "api_fetch.py"]
