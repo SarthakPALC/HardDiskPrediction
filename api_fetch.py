@@ -165,4 +165,4 @@ async def get_information(info: Request):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("api_fetch3:app", host="127.0.0.1", port=8000, reload=True)
+    uvicorn.run("api_fetch:app", host="127.0.0.1", port=8000, reload=True)
