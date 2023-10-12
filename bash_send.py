@@ -83,5 +83,5 @@ if __name__ == "__main__":
                 }
             }]
             post_data(device_hard_drive_data_list)
-        time.sleep(10)
+        time.sleep(20)
 
